@@ -1,0 +1,122 @@
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <section class="preloader-section">
+    <section id="preloader-cloud"></section>
+
+    <div class="rain-drops">
+    <span></span>
+    <span></span>
+    <span></span>   
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+
+    </section>
+
+
+    <section class="section-01">
+        <div class="box-1">
+            <h1>WeatherPulse</h1>
+            <i class="fa-solid fa-cloud-bolt"></i>
+        </div>
+        <div class="paragraphy">
+
+        </div>
+    </section>
+
+    <section class="section-02">
+        <div class="location">
+            <label name="searchLocation">           
+                <input type="search" name="searchLocation" id="searchLocation" class="search-inp" placeholder="Location">
+                <button class = "location-btns"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </label>
+        </div>
+    </section>
+
+<div class="main-process">
+    <section class="section-03">
+        <div class="images">
+            <img src="assets/snowfall.png" alt="cloudimages" style="max-width: 200%;" class="image default-image-weather">
+        </div>
+        <div class="degree-cloud">
+            <div class="degree">
+                <p class="deg" id="degree-measure">31<sup class="degree-celsious">oc</sup></p>
+            </div>
+            <div class="para-sky">
+                <p id="climate">Mostly Cloudy</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-35">
+        <div class="date-details">
+            <p class="date">29-Sep-2025</p>
+            <p class="day">Monday, <p class="time">00:00:00</p></p>
+            <p>Day</p>
+        </div>
+
+        <div class="location-inherit">
+            <p class="location-para" id="locationduplicate">Dhaka</p>
+        </div> 
+    </section>
+</div>
+
+        <div class="days">
+            <p>Today</p>
+        </div>
+    <section class="section-04">
+        
+        <div class="box wind-box">
+            <img src="assets/wind.png" alt="wind" class="wind-image-card">
+            <p class="grid-text">Wind speed</p>
+            <p id="wind-bx"></p>
+           
+        </div>
+        <div class="box humadity-section">
+            <img src="assets/water.png" alt="Humadity" class="Humadity-image-card">
+            <p class="grid-text">Humadity</p>
+            <p id="Humadity-bx"></p>
+        </div>
+        <div class="box snow-box">
+            <img src="assets/snowflake.png" alt="snow" class="snow-image-card">
+            <p class="grid-text">Snow</p>
+            <p class="snow-level"></p>
+        </div>
+        <div class="box uv-box">
+            <img src="assets/sea-level.png" alt="sea level" class="uv-image-card">
+            <p class="grid-text">Sea level</p>
+                <p class="sea-level-message"></p>
+                
+        </div>
+        <div class="box temperature-box">
+            <img src="assets/high-temperature.png" alt="Temperature" class="Temperature-image-card">
+            <p class="grid-text">Pressure</p>
+            <p id="Pressure-bx"></p>
+        </div>
+        
+        <div class="box" id="sun-box">
+            <img src="assets/sun.png" alt="sun" class="sun-image-card">
+            <p class="grid-text">Sunrise</p>
+                <p id="sun-rise"></p>
+                <p>Sunset</p>
+                <p id="sun-set"></p>
+        </div>
+
+    </section>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

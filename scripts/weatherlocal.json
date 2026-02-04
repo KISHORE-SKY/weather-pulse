@@ -1,0 +1,126 @@
+{
+	"cities":[
+
+		{ 
+ 
+			"name":"chennai",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":35,"humidity":60,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":24,"humidity":85,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":28,"humidity":70,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":16,"humidity":95,"celsious":"oc"}
+			]
+
+		},
+
+		{
+			"name":"banglore",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":28,"humidity":73,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":20,"humidity":85,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":25,"humidity":79,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":12,"humidity":97,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"hyderabad",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":30,"humidity":67,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":25,"humidity":75,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":28,"humidity":70,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":15,"humidity":85,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"mumbai",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":34,"humidity":62,"celsious":"oc"},
+				{"id":3,"type":"rainy","temp":26,"humidity":76,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":30,"humidity":70,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":15,"humidity":81,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"kolkata",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":32,"humidity":61,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":25,"humidity":79,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":28,"humidity":70,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":17,"humidity":83,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"thiruvananthapuram",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":28,"humidity":72,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":20,"humidity":89,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":25,"humidity":80,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":10,"humidity":95,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"puducherry",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":29,"humidity":72,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":24,"humidity":86,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":26,"humidity":80,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":16,"humidity":90,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"rajasthan",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":54,"humidity":40,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":36,"humidity":60,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":40,"humidity":67,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":15,"humidity":86,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"kashmir",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":22,"humidity":78,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":16,"humidity":82,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":19,"humidity":75,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":6,"humidity":98,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"delhi",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":30,"humidity":67,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":25,"humidity":74,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":27,"humidity":70,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":17,"humidity":81,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"simla",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":25,"humidity":72,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":19,"humidity":80,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":20,"humidity":85,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":15,"humidity":91,"celsious":"oc"}
+			]
+		},
+
+		{
+			"name":"goa",
+			"conditions":[
+				{"id":1,"type":"sunny","temp":29,"humidity":72,"celsious":"oc"},
+				{"id":2,"type":"rainy","temp":24,"humidity":79,"celsious":"oc"},
+				{"id":3,"type":"cloudy","temp":26,"humidity":75,"celsious":"oc"},
+				{"id":4,"type":"sleet","temp":17,"humidity":82,"celsious":"oc"}
+			]
+		}
+	]
+}
