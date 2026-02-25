@@ -183,7 +183,7 @@ h1{
     padding: 5px;
     padding-inline: 20px;
     border-width: 0;
-    min-width: 500px;
+    width: 500px;
     outline: none; 
     cursor: pointer;
     background-color: #fff;
@@ -468,10 +468,13 @@ sup{
     }
 
     .location{
-        max-width: 300px;
+        width: 300px;
+    }
+    #searchLocation{
+        width: 250px;
     }
     .search-inp{
-        min-width: 225px;
+        width: 250px;
     }
     .main-process{
      margin: 10px;   
